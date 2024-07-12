@@ -1,0 +1,127 @@
+.index2{
+  .banner{
+    border: 4px solid #955412;
+    background: #955412;
+    height: 100px;
+    align-items: center;
+    > img{
+      height: 100%;
+      width: auto;
+    }
+    > div > img{
+      width: 60%;
+      height: 60%;
+    }
+    > div span{
+      text-shadow: 2px 3px 1px #6C0000EF;
+      font-size: 30px;
+      color: #F4D7C5;
+      font-weight: bold;
+      padding-left: 70px;
+      @media (max-width: 414px){
+        font-size: 22px;
+        padding-left: 15px;
+      }
+    }
+    > div{
+      background: url('../images/inside_banner/JinHua_02.png') no-repeat;
+      background-size: contain;
+      width: 60%;
+      height: 100%;
+      display: flex;
+      align-items: flex-end;
+      @media (max-width: 414px){
+        background-position: center center;
+      }
+    }
+    p{
+      color: #FDECC5;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 414px){
+      p{
+        font-size: 22px;
+      }
+    }
+    .backhome{
+      font-size: 24px;
+      @media (max-width: 414px){
+        text-align: right;
+        padding-right: 15px;
+      }
+    }
+    @media (max-width: 414px){
+      .backhome{
+        font-size: 16px;
+      }
+    }
+    > span{
+      margin-left: auto;
+      padding-right: 20px;
+    }
+    @media (max-width: 414px){
+      span{
+        padding-right: 0px;
+        width: 40%;
+      }
+    }
+  }
+  .banner-inner{
+    height: 160px;
+    display: flex;
+    align-items: center;
+    border: 4px solid #955412;
+    ul{
+      width: 100%;
+      justify-content: space-around;
+    }
+    li{
+      border: 2px solid #523500;
+      border-radius: 10px;
+      width: 12%;
+      height: 68px;
+      p{
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      p:first-child{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      p:last-child{
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+    }
+  
+    li.refresh{
+      width: 28px;
+      border-radius: 7px;
+      background: #C5543F;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  .banner-inner-title{
+    margin-right: auto;
+    font-size: 18px;
+    width: 20%;
+    line-height: 22px;
+    @media (max-width: 800px){
+      width: 22%;
+      font-size: 16px;
+    }
+    @media (max-width: 414px){
+      font-size: 13px;
+    }
+  }
+
+  #area4 img{
+    width: 97%;
+    margin: 0 auto 20px auto;
+  }
+}

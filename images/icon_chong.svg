@@ -1,0 +1,8 @@
+<svg id="icon_chong" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <circle id="Ellipse_2" data-name="Ellipse 2" cx="11" cy="11" r="11" fill="#ff9214"/>
+  <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1 1)" fill="#ff9214" stroke="#ffe5aa" stroke-width="2">
+    <circle cx="10" cy="10" r="10" stroke="none"/>
+    <circle cx="10" cy="10" r="9" fill="none"/>
+  </g>
+  <text id="冲" transform="translate(11 15)" fill="#fff" font-size="10" font-family="HiraginoSansGB-W6, Hiragino Sans GB"><tspan x="-5" y="0">冲</tspan></text>
+</svg>
